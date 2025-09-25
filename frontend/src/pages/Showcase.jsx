@@ -279,19 +279,19 @@ const Showcase = () => {
   ]
 
   const pipelineStages = [
-    { name: 'Image Capture', description: 'Using advanced high-resolution microscopy techniques, raw marine samples are captured in fine detail.' },
+    { name: 'Image Capture', description: 'Using our custom designed hardware apparatus, raw marine samples are captured in fine detail.' },
     { name: 'Preprocessing', description: 'Captured images are enhanced through noise reduction, contrast adjustment, and normalization.' },
-    { name: 'Classification', description: 'Our deep learning model identifies and classifies organisms in real-time with high accuracy.' },
-    { name: 'Enumeration', description: 'Our deep learning model counts the number of phytoplanktons of each of the classes present.' }
+    { name: 'Classification', description: 'Our deep learning model identifies and classifies organisms in real-time with 88% accuracy.' },
+    { name: 'Enumeration', description: 'Our deep learning model counts the number of phytoplanktons of each of the classes present with 0.91 R2 score.' }
   ]
 
   const impactMetrics = [
     { label: 'F1 Score', value: '96.0%', icon: Target },
-    { label: 'Model Size', value: '46 KB', icon: Target },
-    { label: 'Frames Per Second', value: '27.3', icon: Target },
+    { label: 'R2 Score', value: '0.91', icon: TrendingUp },
+    { label: 'Model Size', value: '46 KB', icon: HardDrive },
+    { label: 'Frames Per Second', value: '27.3', icon: Video },
     { label: 'Processing per sample', value: '2.197 ms', icon: Clock },
-    { label: 'Power Usage', value: '2.1W', icon: Zap },
-    { label: 'Improvement over state-of-the-art', value: '5x', icon: ExternalLink }
+    { label: 'Improvement over state-of-the-art', value: '5x', icon: ArrowUpRight }
   ]
 
   // Fallback BOM (used if XLSX parsing fails)
