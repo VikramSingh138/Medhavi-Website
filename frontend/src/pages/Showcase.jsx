@@ -12,7 +12,12 @@ import {
   Github,
   ExternalLink,
   Fish,
-  Waves
+  Waves,
+  TrendingUp,
+  HardDrive,
+  Video,
+  Timer,
+  ArrowUpRight
 } from 'lucide-react'
 import axios from 'axios'
 
