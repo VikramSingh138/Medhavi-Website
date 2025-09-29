@@ -1,0 +1,42 @@
+{
+  "stages": [
+    {
+      "id": "capture",
+      "name": "Image Capture",
+      "description": "High-resolution microscopy imaging with automated focus and exposure control",
+      "duration": "0.1s",
+      "inputs": ["Raw microscopy feed"],
+      "outputs": ["Calibrated images"],
+      "icon": "camera"
+    },
+    {
+      "id": "preprocessing",
+      "name": "Preprocessing",
+      "description": "Noise reduction, contrast enhancement, and image normalization",
+      "duration": "0.05s",
+      "inputs": ["Calibrated images"],
+      "outputs": ["Enhanced images"],
+      "icon": "filter"
+    },
+    {
+      "id": "detection",
+      "name": "AI Detection",
+      "description": "Deep learning-based organism detection and species classification",
+      "duration": "0.3s",
+      "inputs": ["Enhanced images"],
+      "outputs": ["Detection results", "Bounding boxes", "Classifications"],
+      "icon": "brain"
+    },
+    {
+      "id": "analysis",
+      "name": "Analysis",
+      "description": "Statistical analysis, population counting, and report generation",
+      "duration": "0.1s",
+      "inputs": ["Detection results"],
+      "outputs": ["Analysis report", "CSV data", "Visualizations"],
+      "icon": "chart"
+    }
+  ],
+  "totalDuration": "0.55s",
+  "throughput": "1.8 images/second"
+}

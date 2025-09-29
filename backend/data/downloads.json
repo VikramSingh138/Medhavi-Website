@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Marine Detector Model",
+    "filename": "marine-detector-v1.zip",
+    "description": "Pre-trained YOLOv8 model for marine organism detection",
+    "size": "45.2 MB",
+    "type": "model",
+    "version": "1.0.0",
+    "downloadCount": 1247
+  },
+  {
+    "name": "Species Classifier",
+    "filename": "species-classifier-v2.zip", 
+    "description": "ResNet-50 based classifier for marine species identification",
+    "size": "78.9 MB",
+    "type": "model",
+    "version": "2.1.0",
+    "downloadCount": 892
+  },
+  {
+    "name": "Population Counter",
+    "filename": "population-counter-v1.zip",
+    "description": "Density estimation model for organism population counting",
+    "size": "32.1 MB", 
+    "type": "model",
+    "version": "1.0.0",
+    "downloadCount": 634
+  },
+  {
+    "name": "Sample Dataset",
+    "filename": "marine-microscopy-dataset.zip",
+    "description": "Annotated dataset of marine microscopy images (1000+ samples)",
+    "size": "2.1 GB",
+    "type": "dataset",
+    "version": "1.0.0",
+    "downloadCount": 445
+  },
+  {
+    "name": "Training Scripts",
+    "filename": "training-scripts.zip",
+    "description": "Python scripts and notebooks for model training and evaluation",
+    "size": "15.7 MB",
+    "type": "code",
+    "version": "1.0.0",
+    "downloadCount": 312
+  },
+  {
+    "name": "API Documentation",
+    "filename": "api-docs.pdf",
+    "description": "Complete API documentation and integration guide",
+    "size": "3.2 MB",
+    "type": "documentation",
+    "version": "1.0.0",
+    "downloadCount": 789
+  },
+  {
+    "name": "Hardware Specifications",
+    "filename": "hardware-specs.pdf",
+    "description": "Recommended hardware setup and embedded system requirements",
+    "size": "1.8 MB",
+    "type": "documentation", 
+    "version": "1.0.0",
+    "downloadCount": 567
+  },
+  {
+    "name": "Sample Results",
+    "filename": "sample-results.csv",
+    "description": "Example analysis results and output format",
+    "size": "245 KB",
+    "type": "data",
+    "version": "1.0.0",
+    "downloadCount": 1023
+  }
+]

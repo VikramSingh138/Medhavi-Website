@@ -1,0 +1,56 @@
+[
+  {
+    "id": "marine-detector-v1",
+    "name": "Marine Organism Detector",
+    "description": "Real-time detection and localization of marine microorganisms with bounding box predictions",
+    "type": "detector",
+    "metrics": {
+      "accuracy": "94.7%",
+      "speed": "0.3s",
+      "mAP": "0.89"
+    },
+    "diagram": "/diagrams/detector-architecture.png",
+    "downloadUrl": "/downloads/marine-detector-v1.zip",
+    "version": "1.0.0",
+    "size": "45.2 MB",
+    "framework": "PyTorch",
+    "inputSize": "640x640",
+    "classes": ["diatom", "copepod", "dinoflagellate", "ciliate", "rotifer"]
+  },
+  {
+    "id": "species-classifier-v2",
+    "name": "Species Classifier",
+    "description": "Multi-class classification of marine species with taxonomic hierarchy support",
+    "type": "classifier",
+    "metrics": {
+      "accuracy": "91.2%",
+      "speed": "0.15s",
+      "f1Score": "0.88"
+    },
+    "diagram": "/diagrams/classifier-architecture.png",
+    "downloadUrl": "/downloads/species-classifier-v2.zip",
+    "version": "2.1.0",
+    "size": "78.9 MB",
+    "framework": "TensorFlow",
+    "inputSize": "224x224",
+    "classes": ["phytoplankton", "zooplankton", "bacteria", "protozoa"]
+  },
+  {
+    "id": "population-counter-v1",
+    "name": "Population Counter",
+    "description": "Automated counting of organism populations with density estimation",
+    "type": "counter",
+    "metrics": {
+      "accuracy": "96.1%",
+      "speed": "0.45s",
+      "mae": "2.3"
+    },
+    "diagram": "/diagrams/counter-architecture.png",
+    "downloadUrl": "/downloads/population-counter-v1.zip",
+    "version": "1.0.0",
+    "size": "32.1 MB",
+    "framework": "ONNX",
+    "inputSize": "512x512",
+    "classes": ["density_map", "count_estimation"]
+  }
+]

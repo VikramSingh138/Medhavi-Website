@@ -1,0 +1,56 @@
+{
+  "analysisId": "demo-analysis-001",
+  "timestamp": "2024-01-15T10:30:00Z",
+  "metadata": {
+    "magnification": "400x",
+    "location": "Pacific Ocean, Coral Reef",
+    "date": "2024-01-15",
+    "model": "detector",
+    "confidence": 0.75,
+    "nmsIou": 0.45
+  },
+  "results": {
+    "species": [
+      {
+        "name": "Diatom sp.",
+        "count": 42,
+        "confidence": 0.89,
+        "boundingBoxes": [
+          {"x": 120, "y": 80, "width": 35, "height": 28, "confidence": 0.92},
+          {"x": 200, "y": 150, "width": 40, "height": 32, "confidence": 0.87}
+        ]
+      },
+      {
+        "name": "Copepod nauplii", 
+        "count": 18,
+        "confidence": 0.84,
+        "boundingBoxes": [
+          {"x": 300, "y": 200, "width": 25, "height": 30, "confidence": 0.88},
+          {"x": 450, "y": 100, "width": 28, "height": 35, "confidence": 0.81}
+        ]
+      },
+      {
+        "name": "Dinoflagellate sp.",
+        "count": 15,
+        "confidence": 0.78,
+        "boundingBoxes": [
+          {"x": 180, "y": 300, "width": 20, "height": 22, "confidence": 0.82},
+          {"x": 380, "y": 250, "width": 18, "height": 20, "confidence": 0.75}
+        ]
+      }
+    ],
+    "totalCount": 75,
+    "processingTime": "1.2s",
+    "avgConfidence": "0.84",
+    "imageSize": {
+      "width": 640,
+      "height": 480
+    }
+  },
+  "statistics": {
+    "speciesDiversity": 3,
+    "dominantSpecies": "Diatom sp.",
+    "densityPerMm2": 12.5,
+    "qualityScore": 0.91
+  }
+}
